@@ -7,7 +7,7 @@ export default class NewsItem extends Component {
     return (
       <div className="card h-100 ">
         <img
-          src={imgUrl}
+          src={!imgUrl ? "https://image.cnbcfm.com/api/v1/image/108328945-1782851611262-gettyimages-2284068650-_73a9042_mpprsnxl.jpeg?v=1782851800&w=1480&h=833&ffmt=webp&vtcrop=y":imgUrl}
           className="card-img-top"
           alt="news"
           style={{ height: "200px", objectFit: "cover" }}
@@ -23,7 +23,7 @@ export default class NewsItem extends Component {
           <a
             href={newsUrl}
             target="_blank"
-            className="btn btn-primary mt-auto"
+            className="btn btn-dark mt-auto"
           >
             Read More
           </a>
