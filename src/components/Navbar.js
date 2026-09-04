@@ -17,8 +17,30 @@ import React, { Component } from 'react'
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Contact</a>
+          <a className="nav-link active" aria-current="page" href="/">Bussiness
+          </a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">Entertainment
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">Health
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">Science
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">General
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">Technology
+          </a>
+        </li>
+       
        
        
       </ul>

@@ -7,7 +7,7 @@ import News from './components/News';
     return (
       <div>
         <Navbar/>
-        <News/>
+        <News  category="science"/>
       </div>
     )
   }
